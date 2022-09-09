@@ -55,11 +55,31 @@ header nav a:hover, header nav a.active
     color: #FFF;
 }
 
-/*Pelicula*/
+/*Movie*/
 
 .main-movie
 {
     font-size: 16px;
     min-height: 40.62em;
+    color: #fff;
+    background: linear-gradient(rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.50) 100%), url(../assets/picture1.jpg);
+    background-position: center center;
+    background-size: cover;
+    margin-bottom: 3.12em;
+    display: flex;
+    align-items: end;
+}
+
+.main-movie .container
+{
+    margin: 0 auto;
+    margin-bottom: 6.25em;
+}
+
+.main-movie .title
+{
+    font-weight: 600;
+    font-size: 3.12em;
+    margin-bottom: 0.4em;
     
 }
