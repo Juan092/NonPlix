@@ -1,0 +1,43 @@
+GET http://localhost:5000/peliculas
+
+###
+POST http://localhost:5000/peliculas
+Content-type: application/json
+
+{
+    "titulo": "El padrino",
+    "autor": "Francis Ford Coppola",
+    "duracion": 175,
+    "año": 1972,
+    "fotoportada": "https://i.insider.com/59a71d336eac402b008b6e4b?width=750"
+}
+
+###
+PATCH http://localhost:5000/peliculas/1
+Content-Type: application/json
+
+{
+    "titulo": "El padrino 2",
+    "autor": "Francis Ford Coppola 2",
+    "duracion": 200,
+    "año": 1974,
+    "fotoportada": "http://2.bp.blogspot.com/_PlIlji5wJSI/S1cKw4Ip6pI/AAAAAAAAAGQ/l2FWvnBEv7Q/w1200-h630-p-k-no-nu/el-padrino-ii.jpg"
+}
+
+###
+POST http://localhost:5000/peliculas
+Content-Type: application/json
+
+{
+    "titulo": "El padrino 3",
+    "autor": "Francis Ford Coppola 3",
+    "duracion": 250,
+    "año": 1974,
+    "fotoportada": "http://2.bp.blogspot.com/_PlIlji5wJSI/S1cKw4Ip6pI/AAAAAAAAAGQ/l2FWvnBEv7Q/w1200-h630-p-k-no-nu/el-padrino-ii.jpg"
+}
+
+###
+GET http://localhost:5000/peliculas/1
+
+###
+DELETE http://localhost:5000/peliculas/1

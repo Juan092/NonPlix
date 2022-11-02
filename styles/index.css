@@ -60,7 +60,7 @@ header nav a:hover, header nav a.active
 .main-movie
 {
     font-size: 16px;
-    min-height: 40.62em;
+    min-height: 65.62em;
     color: #fff;
     background: linear-gradient(rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.50) 100%), url(../assets/picture1.jpg);
     background-position: center center;
