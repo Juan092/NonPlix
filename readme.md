@@ -1,4 +1,5 @@
 # Servicio de streaming NonPlix (Documentación)
+### En desarrollo...
 
 ## _¿Cómo instalar los módulos necesarios?_
 El proyecto está construido con las dependencias de Node.js
