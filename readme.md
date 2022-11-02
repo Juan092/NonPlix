@@ -50,4 +50,16 @@ export const createPelicula = async (req, res) => {
     }
 }
 ```
+
+## _Routes_ (En desarrollo)
+- getPeliculas.js:
+  Realiza una petición GET a la ruta "/peliculas" para mostrar todas las películas en la base de datos.
+- getPeliculaById.js:
+  Realiza una petición GET a la ruta "/peliculas/:id" para mostrar una película en específico por su ID.
+- createPelicula.js:
+  Realiza una petición POST a la ruta "/peliculas" para agregar una película a la base de datos.
+- updatePelicula.js:
+  Realiza una petición PATCH a la ruta "/peliculas/:id" para actualizar una película en específico por su ID.
+- deletePelicula.js:
+  Realiza una petición DELETE a la ruta "/peliculas/:id" para eliminar una película en específico por su ID.
 ## _FRONT-END_ (En desarrollo)
